@@ -43,21 +43,26 @@
   <body>
      
     <div class="container-fluid h-100 w-75 mx-auto mb-5 d-flex align-items-center flex-column">
-        <img src="assets/IMG/wallet-logo.jpg" class="img-logo w-50"> 
-      <form id="loginForm">
-        <label for="username"><h4>Usuario:</h4></label>
-        <input type="text" id="username" name="username" required class="loginForm" /><br /><br />
-        <label for="password"><h4>Contraseña:</h4></label>
-        <input
-          type="password"
-          id="password"
-          name="password"
-          required class="loginForm"
-        /><br /><br />
-        <button type="submit" class="btn btn-secondary"><h3>Iniciar Sesión</h3></button>
-      </form>
-      <p id="message text-bg-danger"></p>
+    <div class="card h-50"  style="width: 18rem;">
+      <img src="assets/IMG/wallet-logo.jpg" class="img-fluid w-100 mx-0 border border-dark">
+      <div class="card-body border border-dark">
+        <form id="loginForm" style="margin:0">
+          <label for="username"><h4>Usuario:</h4></label>
+          <input type="text" id="username" name="username" required class="loginForm" /><br /><br />
+          <label for="password"><h4>Contraseña:</h4></label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required class="loginForm"
+          /><br /><br />
+          <button type="submit" class="btn btn-secondary"><h3>Iniciar Sesión</h3></button>
+        </form>
+        <p id="message text-bg-danger"></p>
+      </div>
+      </div>
     </div>
+
 
     <footer class="mt-5 mr-0">
       <p>Alke Bank ©. Todos los derechos reservados</p>
