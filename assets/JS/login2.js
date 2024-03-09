@@ -1,3 +1,4 @@
+$(document).ready(function(){
 $('#loginForm').submit(function(event) {
     event.preventDefault();
   
@@ -15,3 +16,5 @@ $('#loginForm').submit(function(event) {
       $('#message-error').text('Usuario o contraseña incorrectos');
     }
   });
+
+});
