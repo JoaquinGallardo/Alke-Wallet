@@ -4,7 +4,7 @@ $(document).ready(function(){
 $('#loginForm').submit(function(event) {
     event.preventDefault();
   
-    // Obtener los valores de los campos
+    // Obtener los valores de los campos que requiere el formulario
     let username = $('#username').val();
     let password = $('#password').val();
 
@@ -15,7 +15,7 @@ $('#loginForm').submit(function(event) {
     // Lógica de autenticación
     if (username === 'usuario' && password === 'contraseña') {
       alert('Login exitoso');
-      // Redirigir al usuario a otra página
+      // Ingresar al usuario a la página principal
       window.location.href = "cuenta.html"; 
     } 
     else {
