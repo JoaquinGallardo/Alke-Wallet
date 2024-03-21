@@ -1,15 +1,61 @@
 /*style.css*/
 
 body{
-    background-image: url("../IMG/background-color.jpg"); /* Replace with the actual path to your image */
-    background-size: cover; /* Makes the image cover the entire element */
-    background-position: center; /* Positions the image in the center */
-    height:100%;
+     background: rgb(3,0,11);
+     background: linear-gradient(0deg, rgba(3,0,11,1) 32%, rgba(40,81,152,1) 60%);
+     background-repeat: no-repeat;  
+     background-attachment: fixed; 
+  }
+
+  label {
+    color: rgb(173, 212, 240);
+    background: rgb(3,0,11);
+     background: linear-gradient(0deg, rgba(3,0,11,1) 32%, rgba(40,81,152,1) 60%);
+     background-attachment: fixed;
+    border: 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     text-align: center;
+    text-decoration: none;
+    display:flex;
+    align-self: center;
+    justify-content: center;
+    }
+
+    input {
+      box-shadow: 0 0 10px rgba(0,0,0,.3);
+      border: 1px solid black;
+      width: 252.8px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      text-align: center;
+      text-decoration: none;
+      display:flex;
+      align-self: center;
+      justify-content: center;
+      cursor: pointer;
+
+    }
+
+  button {
+    color: rgb(173, 212, 240);
+    background: rgb(3,0,11);
+    background: linear-gradient(0deg, rgba(3,0,11,1) 32%, rgba(40,81,152,1) 60%);
+    background-attachment: fixed;
+    border: 1px;
+    border-radius: 1px;
+    padding: 5px 15px;
+    width: 252.8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    cursor: pointer;
   }
 
   footer {
-    color: white;
+    color: rgb(173, 212, 240);
     background-color: black;
     padding: 15px;
     justify-content: space-between;
@@ -18,4 +64,7 @@ body{
     align-self: flex-end;
     position: fixed;
     bottom:0;
+    margin-top: auto;
 }
+
+

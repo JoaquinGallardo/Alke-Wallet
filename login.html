@@ -36,31 +36,32 @@
   <body>
      <main>
     <div class="container-fluid h-100 w-100 mx-auto mb-5 mt-5 d-flex align-items-center flex-column">
-    <div class="card border border-dark rounded"  style="width: 18rem; border-width: 15px;">
+    <div class="card border border-dark rounded"  style="width: 18rem; border-width: 1px;">
       <div class="card-body border border-dark rounded d-flex flex-column">
-        <img src="assets/IMG/wallet-logo2.jpg" class="img-fluid w-100 mx-0 mb-3 border border-dark rounded">
-        <form id="loginForm" style="margin:0">
-          <label for="username"><h4>Usuario:</h4></label>
-          <input type="text" id="username" name="username" required class="loginForm" /><br /><br />
-          <label for="password"><h4>Contraseña:</h4></label>
+        <img src="assets/IMG/neo-wallet-logo2.png" class="img-fluid w-100 mx-0 mb-3 border border-dark rounded">
+        <form id="loginForm">
+          <label for="username"><h5>Usuario:</h5></label>
+          <input type="text" id="username" name="username" aria-disabled="true" required class="loginForm" /><br /><br />
+          <label for="password"><h5>Contraseña:</h5></label>
           <input
             type="password"
             id="password"
             name="password"
             required class="loginForm"
-          /><br /><br />
-          <button type="submit" class="btn btn-secondary"><h3>Iniciar Sesión</h3></button>
+          /><br />
+          <div>
+            <h5 class="d-none" id='alertBoot'>Por favor ingrese usuario y contraseña válidos.</h5>
+          </div>
+      
+          <button type="submit" class="border border-dark rounded"><h4>Iniciar Sesión</h4></button>
         </form>
-        <p id="message text-bg-danger"></p>
+        <p id="message text-bg-danger bs-secondary-color"></p>
       </div>
       </div>
     </div>
 
 
-    <div>
-      <h2 class="d-none" id='alertBoot'>Por favor ingrese usuario y contraseña válidos.</h2>
-    </div>
-
+    
 </main>
 
 
@@ -68,9 +69,9 @@
       <p>Alke Bank ©. Todos los derechos reservados.
       <br>
       Para más informacion o soporte, contáctenos.</p>
-      <div class="mail"><a href="https://www.gmail.com/"><img src="assets/IMG/gmail.jpg" width="50" height="50" gap="10px"></a></div>
-      <div class="facebook"><a href="https://www.facebook.com/"><img src="assets/IMG/facebook.jpg" width="50" height="50" gap="10px"></a></div>
-      <div class="insta"><a href="https://www.instagram.com/"><img src="assets/IMG/insta.jpg" width="50" height="50" gap="10px"></a></div>
+      <div class="mail"><a href="https://www.gmail.com/"><img src="assets/IMG/gmail.jpg" class="rounded-circle" alt="img" width="50" height="50" gap="10px"></a></div>
+      <div class="whatsapp"><a href="https://web.whatsapp.com/"><img src="assets/IMG/whatsapp.jpg" class="rounded-circle" alt="img" width="50" height="50" gap="10px"></a></div>
+      <div class="instagram"><a href="https://www.instagram.com/"><img src="assets/IMG/insta.jpg" class="rounded-circle" alt="img" width="50" height="50" gap="10px"></a></div>
 
 
 
