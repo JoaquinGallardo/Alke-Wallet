@@ -1,0 +1,40 @@
+body {
+    background: rgb(3,0,11);
+    background: linear-gradient(0deg, rgba(3,0,11,1) 32%, rgba(40,81,152,1) 60%);
+    background-repeat: no-repeat;  
+    background-attachment: fixed; 
+    color:rgb(173, 212, 240);
+} 
+h3 {
+    color:rgb(173, 212, 240) !important;
+}
+
+nav {
+    color:rgb(173, 212, 240) !important;
+    background: rgb(3,0,11);
+    background: linear-gradient(0deg, rgba(3,0,11,1) 32%, rgba(40,81,152,1) 60%);
+    background-repeat: no-repeat;  
+    background-attachment: fixed; 
+    padding: 0;
+}
+
+
+.container {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+
+
+    footer {
+        color: rgb(173, 212, 240);
+        background-color: black;
+        padding: 15px;
+        justify-content: space-between;
+        width:100%;
+        display: flex;
+        align-self: flex-end;
+        position: fixed;
+        bottom:0;
+        margin-top: auto;
+    }
