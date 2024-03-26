@@ -1,40 +1,43 @@
 /*style.css*/
 
 body{
-     background: rgb(3,0,11);
-     background: linear-gradient(0deg, rgba(3,0,11,1) 32%, rgba(40,81,152,1) 60%);
+     background: url(../IMG/login-landscape2.jpg);
+     background-size: cover;
+     background-position: center; 
      background-repeat: no-repeat;  
      background-attachment: fixed; 
   }
 
+  .card {
+background-color:transparent !important;
+border: 1px solid transparent !important;
+  }
+
+
   label {
     color: rgb(173, 212, 240);
     background: rgb(3,0,11);
-     background: linear-gradient(0deg, rgba(3,0,11,1) 32%, rgba(40,81,152,1) 60%);
-     background-attachment: fixed;
+    background: linear-gradient(0deg, rgba(3,0,11,1) 67%, rgba(40,81,152,1) 100%);     
+    background-attachment: fixed;
     border: 1px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    text-align: center;
-    text-decoration: none;
+    border-radius: 5px;
     display:flex;
     align-self: center;
-    justify-content: center;
-    }
+    justify-content: space-around;}
 
     input {
-      box-shadow: 0 0 10px rgba(0,0,0,.3);
       border: 1px solid black;
       width: 252.8px;
-      border-bottom-left-radius: 5px;
-      border-bottom-right-radius: 5px;
+      border-radius: 5px;
       text-align: center;
       text-decoration: none;
       display:flex;
       align-self: center;
       justify-content: center;
-      cursor: pointer;
+    }
 
+    input:hover {
+      background-color: lightgrey;
     }
 
   button {
@@ -56,9 +59,9 @@ body{
 
   footer {
     color: rgb(173, 212, 240);
-    background-color: black;
+    background-color: transparent;
     padding: 15px;
-    justify-content: space-between;
+    justify-content:space-between;
     width:100%;
     display: flex;
     align-self: flex-end;
@@ -66,5 +69,6 @@ body{
     bottom:0;
     margin-top: auto;
 }
+
 
 

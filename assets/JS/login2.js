@@ -23,7 +23,7 @@ $('#loginForm').submit(function(event) {
       $('#alertBoot').removeClass('d-none');
       $('#alertBoot').addClass('text-danger');
       alert('Usuario o contraseña incorrectos');
-      console.log(h4Text);
+      console.log(aText);
     }
   });
 
