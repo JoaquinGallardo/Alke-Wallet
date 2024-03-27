@@ -84,7 +84,7 @@ ul {
         width:100%;
         display: flex;
         align-self: flex-end;
-        position: relative !important;
-        margin-bottom:0 !important;
+        position: fixed !important;
+        bottom:0 !important;
         margin-top: auto !important;
     }
