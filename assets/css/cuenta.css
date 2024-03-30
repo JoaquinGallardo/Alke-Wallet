@@ -152,8 +152,8 @@ ul {
         width:100%;
         display: flex;
         align-self: flex-end;
-        bottom:0 !important;
         position: relative !important;
+        bottom:0 !important;
         margin-top: auto !important;
     }
 
