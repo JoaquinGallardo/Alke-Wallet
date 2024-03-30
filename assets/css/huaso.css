@@ -42,3 +42,26 @@
 .carousel-control-next-icon {
   background-image: url('ruta-a-tu-icono-siguiente'); /* Ruta a tu icono de flecha siguiente */
 }
+
+
+
+
+
+/* en localStorage.setItem
+                  Darold Trench
+                  12:08 PM
+                  let withdraw = {
+                              currency: origin,
+                              startBalance: balanceOrigin,
+                              amount: -amount,
+                              date: new Date().toLocaleString(),
+                              finalBalance: balanceOrigin - amount,
+                              operation: 'transfer'
+                          };
+                      
+                          originHistory.push(withdraw);
+                          localStorage.setItem(`depositHistory-${origin}`, JSON.stringify(originHistory));
+                  
+                  Giovany, ahi te dejo una estructura para guardar datos
+                  
+                  capturas con localStorage.getItem  */

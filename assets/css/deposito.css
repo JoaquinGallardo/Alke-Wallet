@@ -1,0 +1,189 @@
+body {
+    background: rgb(3,0,11);
+    background: linear-gradient(0deg, rgba(3,0,11,1) 32%, rgba(40,81,152,1) 60%);
+    background-repeat: no-repeat;  
+    background-attachment: fixed; 
+    color:rgb(173, 212, 240);
+}
+
+nav {
+    color:rgb(173, 212, 240) !important;
+    background: rgb(3,0,11);
+    background: linear-gradient(0deg, rgba(3,0,11,1) 32%, rgba(40,81,152,1) 60%);
+    background-repeat: no-repeat;  
+    background-attachment: fixed; 
+    padding: 0;
+}
+
+ul {
+    color:rgb(173, 212, 240);
+    background: rgb(3,0,11);
+    background: linear-gradient(0deg, rgba(3,0,11,1) 32%, rgba(40,81,152,1) 60%);
+    background-repeat: no-repeat;  
+    background-attachment: fixed; 
+
+   }
+
+
+   .dropdown-item:hover {
+    background-color: black!important;
+  }
+
+
+  main {
+    color:rgb(173, 212, 240);
+    background: rgb(3,0,11);
+    background: linear-gradient(0deg, rgba(3,0,11,1) 32%, rgba(40,81,152,1) 60%);
+    border:transparent;
+    opacity:0.9;
+    background-size: 100%;
+    background-repeat: no-repeat;  
+    background-position:absolute;
+    background-attachment: fixed; 
+    display:flex;
+    flex-direction: column;
+  }
+
+
+
+
+  section {
+    background-image: url("../IMG/publicidad2.png"); /* Replace with the actual path to your image */
+    background-size:absolute; /* Makes the image cover the entire element */
+    background-repeat: no-repeat;
+    background-position:fixed; /* Positions the image in the center */
+    
+    
+    
+} 
+
+.article1 {    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+
+.card {
+    color:rgb(173, 212, 240);
+    background: rgb(3,0,11);
+    background: linear-gradient(0deg, rgba(3,0,11,1) 32%, rgba(40,81,152,1) 60%);
+    border:transparent;
+    opacity:0.9;
+    background-size: 100%;
+    background-repeat: no-repeat;  
+    background-position:absolute;
+    background-attachment: fixed; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+   
+    
+
+}
+
+.form-group {
+    color: rgb(173, 212, 240);
+background: rgb(3,0,11);
+background: linear-gradient(0deg, rgba(3,0,11,1) 67%, rgba(40,81,152,1) 100%);     
+background-attachment: fixed;
+    width: 252.8px;
+    border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display:flex;
+  justify-content: center;
+    display: flex !important;
+    flex-direction: row !important;
+    margin-right: 10% !important;
+}
+
+
+.input-group {
+
+    display: flex !important;
+    flex-wrap: wrap;
+    flex-direction: row !important;
+
+}
+
+.form-group {
+    color: rgb(173, 212, 240);
+background: rgb(3,0,11);
+background: linear-gradient(0deg, rgba(3,0,11,1) 67%, rgba(40,81,152,1) 100%);     
+background-attachment: fixed;
+    width: 252.8px;
+    border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display:flex;
+  justify-content: center;
+    display: flex !important;
+    flex-direction: row !important;
+    margin-left: 10% !important;
+}
+
+.Moneda {
+display:flex !important;
+flex-direction: row !important;
+width: 47.5%;
+margin-bottom: 10%;
+}
+
+
+
+
+select {
+    width: 65%;
+
+}
+
+.article2 {
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+table {
+    max-width:65%;
+    margin-top:2%;
+    border-collapse:separate;
+    border:rgb(173, 212, 240) 1px;
+    border-radius:6px;
+}
+
+td, th {
+    border-left:rgb(173, 212, 240) 1px solid !important;
+    border-top:rgb(173, 212, 240) 1px solid !important;
+}
+
+th {
+    color:rgb(173, 212, 240) !important;
+    background-color:rgb(8, 51, 79) !important;
+    border-top: none !important;
+}
+
+td:first-child, th:first-child {
+     border-left: none !important;
+}
+
+footer {
+    color: rgb(173, 212, 240);
+    background-color: transparent;
+    padding: 15px;
+    justify-content:space-between;
+    width:100%;
+    display: flex;
+    align-self: flex-end;
+    position: relative;
+    bottom:0;
+    margin-top: auto;
+}

@@ -1,0 +1,138 @@
+body {
+    background: rgb(3,0,11);
+    background: linear-gradient(0deg, rgba(3,0,11,1) 32%, rgba(40,81,152,1) 60%);
+    background-repeat: no-repeat;  
+    background-attachment: fixed; 
+    color:rgb(173, 212, 240);
+}
+
+nav {
+    color:rgb(173, 212, 240) !important;
+    background: rgb(3,0,11);
+    background: linear-gradient(0deg, rgba(3,0,11,1) 32%, rgba(40,81,152,1) 60%);
+    background-repeat: no-repeat;  
+    background-attachment: fixed; 
+    padding: 0;
+}
+
+ul {
+    color:rgb(173, 212, 240);
+    background: rgb(3,0,11);
+    background: linear-gradient(0deg, rgba(3,0,11,1) 32%, rgba(40,81,152,1) 60%);
+    background-repeat: no-repeat;  
+    background-attachment: fixed; 
+    text-align: justify;
+    list-style-position: inside;
+
+   }
+
+
+   .dropdown-item:hover {
+    background-color: black!important;
+  }
+
+
+  main {
+    color:rgb(173, 212, 240);
+    background: rgb(3,0,11);
+    background: linear-gradient(0deg, rgba(3,0,11,1) 32%, rgba(40,81,152,1) 60%);
+    background-repeat: no-repeat;  
+    background-attachment: fixed; 
+    display:flex;
+    flex-direction: column;
+  }
+
+.section1 {
+    background-image: url("../IMG/support.png"); /* Replace with the actual path to your image */
+    background-size:cover; /* Makes the image cover the entire element */
+    background-repeat: no-repeat;
+    background-position:fixed; /* Positions the image in the center */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+} 
+
+.card {
+    color:rgb(173, 212, 240);
+    background: rgb(3,0,11);
+    background: linear-gradient(0deg, rgba(3,0,11,1) 32%, rgba(40,81,152,1) 60%);
+    border:transparent;
+    opacity:0.9;
+    background-size: 100%;
+    background-repeat: no-repeat;  
+    background-position:absolute;
+    background-attachment: fixed; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+ol {
+    color:rgb(173, 212, 240);
+    background: rgb(3,0,11);
+    background: linear-gradient(0deg, rgba(3,0,11,1) 32%, rgba(40,81,152,1) 60%);
+    background-repeat: no-repeat;  
+    background-attachment: fixed; 
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    list-style-position:inside;
+   }
+
+form {
+    color: rgb(11, 4, 51);
+background-color: white !important;
+max-width: 75%;
+position:relative;border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 12%;
+
+}
+
+input {
+
+    margin-left: 25%;
+}
+
+
+.section2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.jumbotron {
+    color: rgb(1, 20, 33);
+    background-image: url("../IMG/support.png"); /* Replace with the actual path to your image */
+    opacity: 0.7;
+    background-size: cover; /* Makes the image cover the entire element */
+    background-position: center; /* Positions the image in the center */
+    height:100%;
+    position:relative;border: 1px solid black;
+    border-radius: 5px;
+    margin-left:center !important
+
+}
+
+
+footer {
+    color: rgb(173, 212, 240);
+    background-color: transparent;
+    padding: 15px;
+    justify-content:space-between;
+    width:100%;
+    display: flex;
+    align-self: flex-end;
+    position: relative;
+    bottom:0;
+    margin-top: auto;
+}
