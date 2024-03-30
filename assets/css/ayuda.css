@@ -73,6 +73,12 @@ ul {
 
 }
 
+.card-body {
+display:flex;
+flex-direction: column;
+align-items: center;
+
+}
 
 ol {
     color:rgb(173, 212, 240);

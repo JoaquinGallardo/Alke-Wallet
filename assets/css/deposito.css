@@ -131,8 +131,9 @@ background-attachment: fixed;
 .Moneda {
 display:flex !important;
 flex-direction: row !important;
-width: 47.5%;
+width: 43% !important;
 margin-bottom: 10%;
+margin-left: 5%;
 }
 
 
