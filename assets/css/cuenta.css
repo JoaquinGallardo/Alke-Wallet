@@ -1,12 +1,29 @@
-body {
+body{
+    background: url(../IMG/login-landscape2.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;  
+    background-attachment: fixed; 
+    display:flex;
+    flex-direction: column;
+ }
+main {
+    color:rgb(173, 212, 240);
     background: rgb(3,0,11);
     background: linear-gradient(0deg, rgba(3,0,11,1) 32%, rgba(40,81,152,1) 60%);
     background-repeat: no-repeat;  
     background-attachment: fixed; 
-    color:rgb(173, 212, 240);
+    border: 1px;
+    border-radius: 5px;
+    border: 1px solid transparent !important;
+    display:flex;
+    flex-direction: column;
+    width:80% !important;
+    margin-top:2%;
+    margin-left:9%;
 
-  
-} 
+  }
+
 h3 {
     color:rgb(173, 212, 240) !important;
 }
@@ -18,10 +35,13 @@ nav {
     background-repeat: no-repeat;  
     background-attachment: fixed; 
     padding: 0;
+    border-bottom: 1px;
+    border-radius: 5px;
+    border: 1px solid transparent !important;
 }
 
 ul {
-    color:rgb(173, 212, 240);
+    color:rgb(173, 212, 240) !important;
     background: rgb(3,0,11);
     background: linear-gradient(0deg, rgba(3,0,11,1) 32%, rgba(40,81,152,1) 60%);
     background-repeat: no-repeat;  
@@ -30,18 +50,11 @@ ul {
    }
 
 
-.dropdown-item :hover {
-    background-color:grey !important;
+.dropdown-item:hover {
+    background-color: black!important;
   }
 
 
-.container {
-      max-width: 400px;
-      margin: auto;
-      display:flex;
-      flex-direction: row;
-      justify-content: space-between !important;
-    }
 
    
 
@@ -56,11 +69,10 @@ ul {
       text-align: center;
       text-decoration: none;
       display:flex;
-      align-self: center;
       justify-content: center;
         display: flex !important;
         flex-direction: row !important;
-        margin-left: 13% !important;
+        margin-left: 10% !important;
     }
 
     .opciones {
@@ -70,10 +82,66 @@ ul {
         align-items: center !important;
         width:40%;
         margin-right: center !important;
+        margin-left: 27% !important;
     }
 
-   
+    .btn {
+        color: rgb(173, 212, 240);
+        
+    }
 
+    .carousel-inner {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        height: 60vh; /* Ajusta la altura según tus necesidades */
+    }
+    
+    .carousel-item {
+        text-align: center;
+    }
+    
+    .carousel-item img {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        opacity:0.5 !important;
+    }
+
+    .carousel-caption {
+        text-align: start;
+        color: rgb(173, 212, 240);
+        height: 50% !important;
+
+    }
+    
+     /* Estilos personalizados para los controles del carousel */
+    .carousel-control-prev,
+    .carousel-control-next {
+        color: white !important;
+        display: flex;
+        justify-content:space-around;
+      width: 25%; /* Ajusta el ancho según tus necesidades */
+      text-align: center;
+    }
+    
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        display: flex;
+        justify-content: space-around;
+      width: 30px; /* Ajusta el ancho según tus necesidades */
+      height: 30px; /* Ajusta la altura según tus necesidades */
+      background-size: 100%, 100%;
+      background-image: none;
+    }
+    
+    .carousel-control-prev-icon {
+      background-image: url('ruta-a-tu-icono-previo'); /* Ruta a tu icono de flecha previa */
+    }
+    
+    .carousel-control-next-icon {
+      background-image: url('ruta-a-tu-icono-siguiente'); /* Ruta a tu icono de flecha siguiente */
+    }
 
 
     footer {
@@ -84,7 +152,9 @@ ul {
         width:100%;
         display: flex;
         align-self: flex-end;
+        bottom:0 !important;
         position: relative !important;
-        margin-bottom:0 !important;
         margin-top: auto !important;
     }
+
+   

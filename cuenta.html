@@ -12,7 +12,7 @@
 integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
 
 <!--Link de Bootstrap js-->
-<script ddefer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
 integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 crossorigin="anonymous"></script>
 
@@ -23,6 +23,8 @@ crossorigin="anonymous"></script>
 
 <link rel="stylesheet" href="assets/css/cuenta.css">
 
+
+<script defer src="assets/JS/cuenta.js"></script>
 
 </head>
 <body>
@@ -49,8 +51,8 @@ crossorigin="anonymous"></script>
                             </a>
                             <ul class="dropdown-menu">
                                 
-                                <li><a class="dropdown-item" href="giros.html" style="color:rgb(173, 212, 240) !important;">Últimos Movimientos</a></li>
-                                <li><a class="dropdown-item" href="#" style="color:rgb(173, 212, 240) !important;">Transferencia</a></li>
+                                <li><a class="dropdown-item" href="giros.html" style="color:rgb(173, 212, 240) !important;">Movimientos</a></li>
+                                <li><a class="dropdown-item" href="transferencia.html" style="color:rgb(173, 212, 240) !important;">Transferencia</a></li>
                                 <li><a class="dropdown-item" href="deposito.html" style="color:rgb(173, 212, 240) !important;">Depósito</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
@@ -68,11 +70,10 @@ crossorigin="anonymous"></script>
     </header>
 
 
-<body>
-
-    <main>
     <h3 class="text-bg-dark  text-center mb-3" style="color:rgb(173, 212, 240) !important;">Menú Principal</h3>
-  <div class="container-fluid h-100 w-100  d-flex flex-wrap flex-row align-items-center">
+    <main>
+    
+  <div class="container-fluid h-100 w-100 d-flex flex-row align-items-center">
     <div class="form-group">
         <section>
         <form>
@@ -82,48 +83,80 @@ crossorigin="anonymous"></script>
     </div>
     
 <div class="opciones mr-0">
-    <a href="deposito.html" class="btn btn-primary mt-3 mb-5 w-75" 
+    <a href="deposito.html" class="btn btn-primary mt-3 mb-5 w-auto" 
     style=" background: rgb(6, 12, 66);
     border: black;
     border-radius: 1px solid black !important;
-    padding: 5px 15px;
-    width: 252.8px;
     text-align: center;">Depositar</a>
 
-    <a href="transferencia.html"  class="btn btn-primary mt-3 mb-5 w-75" 
+    <a href="transferencia.html"  class="btn btn-primary mt-3 mb-5 w-auto" 
     style=" background: rgb(6, 12, 66);
     border: black;
     border-radius: 1px solid black !important;
-    padding: 5px 15px;
-    width: 252.8px;
     text-align: center;">Enviar Dinero</a>
     
-    <a href="transactions.html" class="btn btn-primary mt-3 mb-5 w-75" 
+    <a href="giros.html" class="btn btn-primary mt-3 mb-5 w-auto" 
     style=" background: rgb(6, 12, 66);
     border: black;
     border-radius: 1px solid black !important;
-    padding: 5px 15px;
-    width: 252.8px;
-    text-align: center;">Últimos Movimientos</a>
+    text-align: center;">Movimientos</a>
 
 </div>
 
 
 </div>
+
 </section>
 
+<section>
 
 
 
-    <div class="jumbotron text-center d-block h-100 w-100 mb-3" style="background-image: url(../IMG/facebook.jpg); background-size: cover; background-position: center;"
-                >                    <h1>My Awesome Jumbotron</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices aliquam lacus.</p>
-                  
-
-                    <a href="#" class="btn btn-primary">Learn More</a>
+    <div class="container-fluid w-100  mt-5">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/IMG/publicidad2.jpg" class="d-block w-100 m-auto" alt="...">
+                
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style=" background: rgb(6, 12, 66);
+                    border: black;
+                    border-radius: 1px solid black !important; width: 23%;">De mi para mi!!!</h5>
+                    <p>Puedes realizar depósitos de manera casi instantanea con nosotros</p>
                   </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/IMG/support.jpg" class="d-block w-100 m-auto" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 style=" background: rgb(6, 12, 66);
+                        border: black;
+                        border-radius: 1px solid black !important; width: 27%;">Dudas o consultas?</h5>
+                        <p>Recuerda que puedes comunicarte con nuestros ejecutivos a través de nuestros canales de ayuda.</p>
+                      </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/IMG/transfer.jpg" class="d-block w-100 m-auto" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style=" background: rgb(6, 12, 66);
+                    border: black;
+                    border-radius: 1px solid black !important; width: 25%;">1, 2, 3 y BOOM!!!!</h5>
+                    <p>Realiza tansferencias de forma más facil y segura con Alke Wallet</p>
+                  </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
 
-  
 </section>
 
 </main>

@@ -4,46 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Virtual Wallet</title>
+    <title>Ayuda</title>
 
 
 
     <!--Link de Bootstrap css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-    <link rel="stylesheet" href="../../ProyectoBootstrap/css/wallet.css">
 
-<style>
+    <!--Link de Bootstrap js-->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 
-body {
-    background-image: url("assets/IMG/background-color.jpg"); /* Replace with the actual path to your image */
-    background-size: cover; /* Makes the image cover the entire element */
-    background-position: center; /* Positions the image in the center */
-    height:100%;
-    text-align: center;
-    
-} 
+    <!--Link Popper-->
+    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
 
-
-
-
-
-
-footer {
-    color: white;
-        background-color: black;
-        padding: 15px;
-        justify-content: space-around;
-        width:100%;
-        display: flex;
-        align-self: flex-end;
-        position: fixed;
-        bottom:0;
-}
-
-</style>
-
-
+    <link rel="stylesheet" href="assets/css/ayuda.css">
 </head>
 
 <body>
@@ -52,7 +31,8 @@ footer {
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark">
             <div class="container-fluid">
-                <img src="assets/IMG/wallet-logo2.jpg" width="auto" height="60px" margin="0">
+                <img src="assets/IMG/neo-wallet-logo3.png" class="border border-dark rounded" width="250px"
+                    height="50px">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -60,36 +40,33 @@ footer {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <!-- <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li> -->
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="#">Ayuda</a>
-                        </li> -->
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="cuenta.html"
+                                style="color:rgb(173, 212, 240) !important;">Cuenta</a>
+                        </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                                aria-expanded="false" style="color:rgb(173, 212, 240) !important;">
                                 Opciones
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="cuenta.html">Cuenta</a></li>
-                                <li><a class="dropdown-item" href="giros.html">Últimos Movimientos</a></li>
-                                <li><a class="dropdown-item" href="#">Transferencia</a></li>
-                                <li><a class="dropdown-item" href="deposito.html">Depósito</a></li>
+
+                                <li><a class="dropdown-item" href="transferencia.html"
+                                        style="color:rgb(173, 212, 240) !important;">Transferencia</a></li>
+                                <li><a class="dropdown-item" href="deposito.html"
+                                        style="color:rgb(173, 212, 240) !important;">Depósito</a></li>
+                                        <li><a class="dropdown-item" href="giros.html"
+                                            style="color:rgb(173, 212, 240) !important;">Movimientos</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="login.html">Cerrar sesión</a></li>
+                                <li><a class="dropdown-item" href="login.html"
+                                        style="color:rgb(173, 212, 240) !important;">Cerrar sesión</a></li>
                             </ul>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                        </li> -->
-                    </ul>
-                   <!--  <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
-                    </form> -->
+
+
                 </div>
             </div>
         </nav>
@@ -98,164 +75,162 @@ footer {
     </header>
 
     <main>
+        <h3 class="text-bg-dark  text-center mb-0" style="color:rgb(173, 212, 240) !important;">Bienvenido a la página
+            de ayuda</h3>
 
-        <!--Tabla de activos-->
-        <div class="row mx-0">
-            <section >
+            <section>
+                
+        <div class="section1">
 
-                <div class="col-12 text-bg-dark">
-                    <h3 class="text-bg-dark  text-center mb-3">Tabla Activos</h3>
+            <div class="card ml-3" style="width: 75%;">
+
+
+                <h2 style="width: 100%; background: rgb(6, 12, 66);
+                border: black;
+                border-radius: 10px !important;
+                text-align: center; margin-top: 2.5%;"> Preguntas frecuentes:</h2>
+
+                <ol style="background-color: white !important;">
+
+                    <li>¿Cómo puedo abrir una cuenta bancaria?</li>
+                    <br>
+                    <a> Para abrir una cuenta bancaria, necesitas reunir los siguientes documentos:</a>
+                    <br>
+                    <ul>
+                        <li>Cédula de identidad</li>
+                        <li>Comprobante de domicilio</li>
+                        <li>Comprobante de ingresos</li>
+                        <li>Puedes abrir una cuenta bancaria en cualquiera de nuestras sucursales o a través de nuestro
+                            sitio web.</li>
+                    </ul>
+                    <br>
+                    <li> ¿Cómo puedo activar mi tarjeta de débito?</li>
+                    <br>
+                    <a>Para activar tu tarjeta de débito, debes llamar al número de teléfono que aparece en el reverso
+                        de la tarjeta o hacerlo a través de nuestro sitio web.</a>
+                    <br>
+                    <li> ¿Cómo puedo consultar mi saldo?</li>
+                    <br>
+                    <a>Puedes consultar tu saldo de las siguientes maneras:</a>
+                    <br>
+                    <ul>
+
+                        <li>Iniciando sesión en tu banca online</li>
+                        <li>Llamando al número de teléfono que aparece en el reverso de tu tarjeta de débito</li>
+                        <li>Enviando un mensaje de texto al número de teléfono del banco</li>
+                        <li> Visitando un cajero automático</li>
+                        <li>¿Cómo puedo realizar una transferencia bancaria?</li>
+
+                    </ul>
+                    <br>
+                    <li>¿Cómo puedo realizar una transferencia bancaria?</li>
+                    <br>
+                    <a>Puedes realizar una transferencia bancaria de las siguientes maneras:<a>
+
+                            <ul>
+                                <br>
+                                <li>Iniciando sesión en tu banca online</li>
+                                <li>Llamando al número de teléfono del banco</li>
+                                <li>Visitando una sucursal del banco</li>
+
+                            </ul>
+                            <br>
+                            <li>¿Cómo puedo pagar mis facturas?</li>
+                            <br>
+                            <a>Puedes pagar tus facturas de las siguientes maneras:<a>
+                                    <br>
+                                    <ul>
+
+                                        <li>Iniciando sesión en tu banca online</li>
+                                        <li>Llamando al número de teléfono del banco</li>
+                                        <li>Visitando una sucursal del banco</li>
+                                        <li>Configurando un pago automático</li>
+
+                                    </ul>
+                                    <br>
+                                    <a>Recuerda que puedes encontrar más información sobre nuestros productos y
+                                        servicios en nuestro sitio web.<a>
+
+
+                </ol>
+                <form>
+                    <div class="mb-3">
+                        <h4>Si no encuentras la respuesta a tu pregunta en las preguntas frecuentes, puedes enviar una
+                            solicitud de ayuda a través de nuestro formulario online.</h4>
+                        <label>Por favor ingresa tus datos:</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Dirección de correo electrónico" style="width:55%">
+                    </div>
+                    <div class="mb-3">
+
+                        <input type="contactnumber" class="form-control" id="exampleInputContactNumber"
+                            placeholder="Número de teléfono" style="width:55%">
+                    </div>
+                    <div class="mb-3 form-check">
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-3" style=" background: rgb(6, 12, 66) !important;
+                    border: black !important;
+                    border-radius: 1px solid black !important;
+                    text-align: center;">Ingresar</button>
+
+
+                </form>
+                <div class="card-body">
+                    <a>También puedes visitarnos en una de nuestras sucursales para recibir atención personalizada.</a>
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13315.884071575858!2d-70.609782!3d-33.4500616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1711674752664!5m2!1ses!2scl"
+                        width="300" height="175" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <table class="table table-bordered table-striped">
-                    <thead>
-                        <tr>
-                            <th>Activo</th>
-                            <th>Saldo</th>
-                            <th>Valor actual</th>
-                            <th>Variación</th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Peso ($CLP)</td>
-                            <td>1000</td>
-                            <td>1500</td>
-                            <td>500</td>
-                        </tr>
+            </div>
 
-                        <tr>
-                            <td>Dolar($USD)</td>
-                            <td>1000</td>
-                            <td>1500</td>
-                            <td>500</td>
-                        </tr>
-                        <tr>
-                            <td>Euro(€EUR)</td>
-                            <td>1000</td>
-                            <td>1500</td>
-                            <td>500</td>
-                        </tr>
-                        <tr>
-                            <td>UF (Unidad de Fomento)</td>
-                            <td>1000</td>
-                            <td>1500</td>
-                            <td>500</td>
-                        </tr>
-                        <tr>
-                            <td>UTM (Unidad Tributaria Mensual)</td>
-                            <td>1000</td>
-                            <td>1500</td>
-                            <td>500</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-            <!--Tabla de Detalles adicionales-->
+
+        </div>
+
+    </section>
+
+
+        <div class="section2">
             <section class="col-md-6 mt-5">
-                <h3 class="text-bg-dark text-center mb-3">Detalles adicionales</h3>
 
-                <div class="jumbotron text-center d-block h-100" style="background-image: url(../IMG/facebook.jpg); background-size: cover; background-position: center;"
-                >                    <h1>My Awesome Jumbotron</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices aliquam lacus.</p>
-                  
 
-                    <a href="#" class="btn btn-primary">Learn More</a>
-                  </div>
-                  
-                  <!-- en localStorage.setItem
-                  Darold Trench
-                  12:08 PM
-                  let withdraw = {
-                              currency: origin,
-                              startBalance: balanceOrigin,
-                              amount: -amount,
-                              date: new Date().toLocaleString(),
-                              finalBalance: balanceOrigin - amount,
-                              operation: 'transfer'
-                          };
-                      
-                          originHistory.push(withdraw);
-                          localStorage.setItem(`depositHistory-${origin}`, JSON.stringify(originHistory));
-                  
-                  Giovany, ahi te dejo una estructura para guardar datos
-                  
-                  capturas con localStorage.getItem -->
+                <div class="jumbotron text-center d-block h-100"
+                    style="background-image: url(../Alke-Wallet/assets/IMG/publicidad3.jpg); background-size: cover; background-position: center;">
+                    <h1>¡Felicidades!</h1>
+                    <p> Tu tarjeta cuenta corriente 100% digital ya está lista.
+                        Compra online, paga tus servicios y mucho más.</p>
+
+
+                    <a href="#" class="btn btn-primary mb-3 w-auto" style=" background: rgb(6, 12, 66) !important;
+                    border: black !important;
+                    border-radius: 1px solid black !important;
+                    text-align: center;">Consulta</a>
+                </div>
+
+
             </section>
+
         </div>
 
     </main>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="column">
-
-
-
-            </div>
-
-
-        </div>
-
-
-
-    </div>
-
-    <div class="container-fluid w-75  mt-5">
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="assets/IMG/wallet-logo.jpg" class="d-block w-75 m-auto" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/IMG/wallet-logo.jpg" class="d-block w-75 m-auto" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/IMG/wallet-logo.jpg" class="d-block w-75 m-auto" alt="...">
-                </div>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
-                  </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </div>
-
-
-
-    
-
-
-      
-    
-
-
-    <footer class="mt-3 mr-0">
-        <p>Alke Bank ©. Todos los derechos reservados</p>
-        <div class="mail"><a href="https://www.gmail.com/"><img src="assets/IMG/gmail.jpg" width="50" height="50"></a></div>
-        <div class="facebook"><a href="https://www.facebook.com/"><img src="assets/IMG/facebook.jpg" width="50" height="50"></a></div>
-        <div class="insta"><a href="https://www.instagram.com/"><img src="assets/IMG/insta.jpg" width="50" height="50"></a></div>
-
+    <footer class="mt-5 mr-0">
+        <p>Alke Bank ©. Todos los derechos reservados.
+            <br>
+            Para más informacion o soporte, contáctenos.
+        </p>
+        <div class="mail"><a href="https://www.gmail.com/"><img src="assets/IMG/gmail.jpg" class="rounded-circle"
+                    alt="img" width="50" height="50" gap="10px"></a></div>
+        <div class="whatsapp"><a href="https://web.whatsapp.com/"><img src="assets/IMG/whatsapp.jpg"
+                    class="rounded-circle" alt="img" width="50" height="50" gap="10px"></a></div>
+        <div class="instagram"><a href="https://www.instagram.com/"><img src="assets/IMG/insta.jpg"
+                    class="rounded-circle" alt="img" width="50" height="50" gap="10px"></a></div>
 
     </footer>
 
 
-    <!--Link de Bootstrap js-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <!--Link Popper-->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
+
 
 
 
