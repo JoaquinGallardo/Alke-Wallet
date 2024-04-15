@@ -80,6 +80,12 @@ WHERE u.nombre = 'Pedro Lopez'; -- Como quiero conectarlo, eligiendo un parámet
 SELECT *
 FROM TRANSACCION;
 
+-- Consulta para obtener todas las transacciones realizadas por un usuario específico
+
+SELECT *
+FROM TRANSACCION
+WHERE id_emisor = 1;
+
 -- Sentencia DML para modificar el campo correo electrónico de un usuario específico
 
 SELECT *
